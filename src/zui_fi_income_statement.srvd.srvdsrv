@@ -1,0 +1,5 @@
+@EndUserText.label: 'Income Statement'
+define service ZUI_FI_INCOME_STATEMENT {
+  expose ZC_FI_INCOME_STATEMENT        as IncomeStatement;
+  expose ZI_FI_INCOME_STATEMENT_HEADER as Header;
+}
